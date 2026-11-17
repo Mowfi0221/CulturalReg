@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.CulturalRegistration" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#4527A0</item>
+        <item name="colorAccent">#673AB7</item>
+        <item name="colorControlActivated">#673AB7</item>
+    </style>
+</resources>

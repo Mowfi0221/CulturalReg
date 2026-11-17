@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#EDE7F6">
+
+    <!-- Welcome message: large, bold, custom font -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Cultural Fest!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#4527A0"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Student name -->
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Name"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#212121"
+        android:textColorHint="#757575"
+        android:background="@drawable/edit_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="14dp"/>
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#212121"
+        android:textColorHint="#757575"
+        android:background="@drawable/edit_bg"
+        android:padding="16dp"/>
+
+    <CheckBox
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I accept the Terms and Conditions"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#4527A0"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
